@@ -1,0 +1,273 @@
+/* Navbar */
+nav {
+	font-family: 'Oswald', sans-serif;
+	background-color: #FFB004; 
+	letter-spacing: 1px;
+}
+
+.navbar-brand img {
+	width: 60px; 
+	height: 60px;
+}
+
+.nav-link {
+	color: #333333;
+}
+
+.nav-link:hover {
+	color: #000000;
+}
+
+.nav-links {
+	border-radius: 30px;
+}
+
+.user-image {
+	width:30px; height: 30px;
+}
+
+/* Home Page */
+
+.banner, .jumbotron {
+	background-color: #FFB004;
+}
+
+.banner-title {
+	 font-family: 'Archivo', sans-serif;
+	 font-size: 70px;
+}
+
+.banner-image img {
+	width: 500px; 
+	height: 500px;
+}
+
+.get-started-button {
+	 font-family: 'Oswald', sans-serif; 
+	 font-size: 18px;
+	 font-weight: 400;
+}
+
+.food-section {
+	background-color: #fff7de; 
+	border: 0.1px solid #fff7de;
+}
+
+.card {
+	box-shadow: 5px 3px 20px 3px #c8c8c8;
+}
+
+.card img {
+	width: 100%; 
+	height: 280px;
+}
+
+.food-energy {
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 500; 
+	color: #AFAFAF
+}
+
+.read-more-btn {
+	background-color: #FFB004; 
+	border-radius: 20px; 
+	color: #000;
+}
+
+.about {
+	background-color: #f7f5f0; 
+	border: 0.1px solid #f7f5f0
+}
+
+.about-title {
+	color: #ffc32e; 
+	font-size: 40px;
+}
+
+.fact-title {
+	font-family: 'Oswald', sans-serif; 
+	font-size: 35px; 
+	font-weight: 500; 
+	letter-spacing: 1px;
+}
+
+.fact-explain {
+	font-family: 'Crimson Text', serif; 
+	font-size: 30px;
+}
+
+.about-image img{
+	height: 300px;
+	width: 197px;
+}
+
+/* Foods */
+
+.logo img {
+	width: 90px; 
+	height: 90px;
+}
+
+.unihealth-text {
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 700;
+}
+
+.search-btn {
+	background-color: #FFB004; 
+	color: white;
+}
+
+.card-title {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.card-subtitle {
+	font-size: 13px; 
+	color: #AFAFAF;
+}
+
+.nutrition-info {
+	color: #484848;
+}
+
+/* Login */
+
+.user {
+	background-color: #FFB004; 
+	border-radius: 30px;
+}
+
+/* Food Details */
+
+.food-image img {
+	width: 1000px; 
+	height: 460px;
+}
+
+.nutrient-info img {
+	width: 70px; 
+	height: 70px
+}
+
+.nutrient-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.nutrient-type {
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+.ingredient-list {
+	background-color: #F1F0EC;
+}
+
+/* Calculator */
+
+.page-title h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.page-title p {
+	color:#bdbab1;
+}
+
+.calculator-form {
+	background-color: #e8e8e8; 
+	border-radius: 40px;
+}
+
+.form-group {
+	margin-top: 30px;
+}
+
+.input-select, .input-text {
+	opacity: 0.6; 
+	background: #8f8f8f; 
+	color: white;
+}
+
+.input-text:focus {
+	opacity: 0.6; 
+	background: #8f8f8f; 
+	color: white;
+}
+
+.calculate-btn {
+	background-color: #FFB004;
+}
+
+/* Result */
+
+.nutrient-result img {
+	width: 70px; 
+	height: 70px
+}
+
+.nutrient-number {
+	margin-top: 20px;
+}
+
+.nutrient-result {
+	margin: 10px 30px;
+}
+
+
+@media (max-width: 560px) {
+	/* Home page*/
+    .banner-title {
+		font-size: 30px;
+	}
+
+	.banner-image img {
+		width: 250px; 
+		height: 250px;
+	}
+
+	.get-started-button {
+		font-size: 15px;
+   }
+
+   .about-title {
+		font-size: 25px;
+	}
+
+	.fact-title {
+		font-size: 20px; 
+	}
+
+	.fact-explain {
+		font-size: 18px;
+	}
+
+	/* Calculator */
+	.calculator-form {
+		border-radius: 20px;
+	}
+
+	/* Food details */
+	.food-image img {
+		width: 100%; 
+		height: 200px;
+	}
+
+	/* Detail food */
+	.nutrient-show {
+		flex-wrap: wrap;
+	}
+
+	.nutrient-info {
+		flex-direction: column;
+		margin-top: 30px;
+	}
+		
+	.nutrient-type {
+		margin-top: 10px;
+		margin-left: 0;
+	} 
+}
